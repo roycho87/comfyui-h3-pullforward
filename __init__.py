@@ -1,0 +1,6 @@
+from .motion_mask import NODE_CLASS_MAPPINGS as _a, NODE_DISPLAY_NAME_MAPPINGS as _an
+from .h3_pullforward import NODE_CLASS_MAPPINGS as _b, NODE_DISPLAY_NAME_MAPPINGS as _bn
+
+NODE_CLASS_MAPPINGS = {**_a, **_b}
+NODE_DISPLAY_NAME_MAPPINGS = {**_an, **_bn}
+__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
